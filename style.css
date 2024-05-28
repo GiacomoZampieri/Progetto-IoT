@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+body{
+  background-color: rgb(255, 255, 255);
+  font-family: "Open Sans", sans-serif;
+  min-height: 100vh;
+  margin: auto;
+}
+
+table{
+  border-collapse: collapse;
+  width: 50%;
+  font-family: monospace;
+  font-size: 25px;
+  text-align: left;
+  margin: auto;
+}
+
+th{
+    background-color: #c4c4c4f2;
+    color: black;
+}
+
+tr:nth-child(even){background-color: #f2f2f2};
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  margin: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  width: 400px;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  color: #565656;
+}
+
+@media all and (max-width: 400px) {
+  .container {
+    width: auto;
+  }
+}
+
+@media all and (max-width: 400px) {
+  .container {
+    padding: 0px 20px;
+  }
+}
+
+#percentualeCorrette{
+  margin-left: 85vh;
+  font-size: 20px;
+}
+
+input[type="submit"] {
+  margin-left: 25%;
+  background-color: #007bff; /* Colore di sfondo */
+  color: white; /* Colore del testo */
+  border: none; /* Rimuove il bordo */
+  padding: 10px 20px; /* Spaziatura interna */
+  border-radius: 5px; /* Bordo arrotondato */
+  cursor: pointer; /* Cambia il cursore al passaggio del mouse */
+  font-size: 16px; /* Dimensione del testo */
+}
+
+input[type="submit"]:hover {
+  background-color: #0056b3; /* Cambia il colore di sfondo al passaggio del mouse */
+}
